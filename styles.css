@@ -1,0 +1,186 @@
+
+body{
+    background-color: #1F2937;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 40px;
+    color: white;
+
+}
+ul {
+    color: gray;
+    font-size: 15px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px
+ }
+
+ .second {
+    display: flex;
+    justify-content: center;  /* Change from space-between to center */
+    margin-top: 50px;
+    padding: 50px;
+    gap: 100px;  /* Add gap between elements */
+ }
+
+ .second-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    gap: 5px
+ }
+
+ .top-text2 {
+    color: white;
+    font-size: 40 px;
+    font-weight: bold;
+
+ }
+
+ .bottom-text2 {
+    color: gray;
+    flex-wrap: wrap;
+
+ } 
+
+ .button2 {
+    color: white;
+    padding: 12px 20px; 
+    background-color: #3882f6;
+    border-radius: 10px; 
+    width: fit-content;
+    
+ }
+
+ 
+ .second .img {
+    width: 50%;
+
+    display: flex;
+    min-width: 300px;  /* or your desired width */
+    min-height: 100px; /* or your desired height */
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 10%;
+    gap: 30px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.random-info img {
+    border: 3px solid #3882f6;
+    min-height: 10px;
+    width: 100px;
+    border-radius: 16px;
+    
+}
+.third-top {
+    margin-top: -30px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    text-align: center;
+    width: 150px;
+    
+}
+
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+
+    
+}
+
+.quote {
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+.author {
+    text-align: right;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.five1 {
+    background-color: white;
+    padding: 50px;
+}
+.five {
+    margin: 100px 100px;
+    display: flex;
+    background-color:#3882f6;
+    padding: 40px 40px;
+    justify-content: center;
+
+    width:500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    gap: 50px;
+
+}
+
+
+
+.five-right{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: fit-content;
+    
+}
+
+.five-top {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.sign-text {
+    color: white;
+    font-size: 15px;
+}
+
+.six {
+    display: flex;
+    color: white;
+    padding: 30px 30px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;  /* Removes underline */
+    color: #fff;           /* Changes text color */
+}
+
